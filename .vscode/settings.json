@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "~/.cache/pypoetry/virtualenvs/birthdayculator-Junf-L9p-py3.9/bin/python",
+  "python.formatting.blackPath": "~/.cache/pypoetry/virtualenvs/birthdayculator-Junf-L9p-py3.9/bin/black",
+  "python.formatting.provider": "black",
+  "python.sortImports.path": "~/.cache/pypoetry/virtualenvs/birthdayculator-Junf-L9p-py3.9/bin/isort",
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "~/.cache/pypoetry/virtualenvs/birthdayculator-Junf-L9p-py3.9/bin/flake8",
+  "editor.formatOnSave": true,
+}

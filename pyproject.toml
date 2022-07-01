@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "birthdayculator"
+version = "0.1.0"
+description = "A thin and extremely specialised wrapper around luxon for calculating birthday info from a birth date. Ported from npm library"
+authors = ["Rick Cooper <rcoops84@hotmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dateutil = "^2.8.2"
+pre-commit = "^2.19.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+freezegun = "y"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
