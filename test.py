@@ -7,8 +7,3 @@ NOW = datetime.now()
 TODAY = date.today()
 
 print(NOW + relativedelta(months=+1))
-
-
-
-
-
