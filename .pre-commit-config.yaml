@@ -8,14 +8,21 @@ repos:
     rev: 22.6.0
     hooks:
       - id: black
+        args:
+          - "--check"
+
   - repo: https://github.com/PyCQA/flake8
     rev: 4.0.1
     hooks:
       - id: flake8
+
   - repo: https://github.com/PyCQA/isort
     rev: 5.10.1
     hooks:
       - id: isort
+        args:
+          - "--check"
+
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v2.27.1
     hooks:
