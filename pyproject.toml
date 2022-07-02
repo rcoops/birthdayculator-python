@@ -8,13 +8,14 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.9"
 python-dateutil = "^2.8.2"
-pre-commit = "^2.19.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
 isort = "^5.10.1"
 pytest = "^7.1.2"
 freezegun = "y"
+flake8 = "^4.0.1"
+pre-commit = "^2.19.0"
 
 [tool.black]
 line-length = 120
