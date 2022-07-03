@@ -1,11 +1,14 @@
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
       - main
 
 jobs:
   build-n-publish:
     runs-on: ubuntu-latest
+if: github.event.pull_request.merged
     steps:
       - uses: actions/checkout@v3
       - name: Build and publish to pypi
