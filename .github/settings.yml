@@ -1,8 +1,0 @@
-repository:
-  delete_branch_on_merge: true
-branches:
-  - name: main
-    protection:
-      restrictions:
-        users:
-          - rcoops
