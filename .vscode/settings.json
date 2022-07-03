@@ -6,6 +6,7 @@
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Path": "~/.cache/pypoetry/virtualenvs/birthdayculator-Junf-L9p-py3.9/bin/flake8",
   "editor.formatOnSave": true,
+  "python.terminal.activateEnvironment": true,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
