@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/rcoops/birthdayculator-python/compare/v0.1.3...v0.2.0) (2022-07-03)
+
+
+### Features
+
+* print adding ([69ebcd8](https://github.com/rcoops/birthdayculator-python/commit/69ebcd83d10c14060c5a635010b45b48c5a47359))
+
 ## [0.1.3](https://github.com/rcoops/birthdayculator-python/compare/v0.1.2...v0.1.3) (2022-07-03)
 
 
