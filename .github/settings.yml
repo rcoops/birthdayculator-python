@@ -4,6 +4,9 @@ repository:
   default_branch: main
   allow_squash_merge: true
   allow_merge_commit: false
+  allow_rebase_merge: false
+  enable_automated_security_fixes: true
+  enable_vulnerability_alerts: true
 branches:
   - name: main
     protection:
@@ -12,6 +15,8 @@ branches:
           - rcoops
       required_status_checks:
         strict: true
+        checks:
+          - CodeQL
       required_pull_request_reviews:
         required_approving_review_count: 1
         require_code_owner_reviews: true
