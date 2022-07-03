@@ -11,12 +11,10 @@ branches:
   - name: main
     protection:
       restrictions:
-        users:
-          - rcoops
+        users: [rcoops]
       required_status_checks:
         strict: true
-        checks:
-          - CodeQL
+        checks: [CodeQL]
       required_pull_request_reviews:
         required_approving_review_count: 1
         require_code_owner_reviews: true
