@@ -13,6 +13,7 @@ branches:
       restrictions:
         users: [rcoops]
         teams: []
+        apps: []
       enforce_admins: null
       required_status_checks:
         strict: true
