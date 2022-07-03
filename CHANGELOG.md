@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/rcoops/birthdayculator-python/compare/v0.1.0...v0.1.1) (2022-07-03)
+
+
+### Bug Fixes
+
+* remove unused dep ([3c4e1b6](https://github.com/rcoops/birthdayculator-python/commit/3c4e1b66b93b2dcce36ec2428b2c1091efe623ae))
+
 ## 0.1.0 (2022-07-03)
 
 
