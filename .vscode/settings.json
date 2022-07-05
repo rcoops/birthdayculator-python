@@ -5,6 +5,9 @@
   "python.sortImports.path": "~/.cache/pypoetry/virtualenvs/birthdayculator-Junf-L9p-py3.9/bin/isort",
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Path": "~/.cache/pypoetry/virtualenvs/birthdayculator-Junf-L9p-py3.9/bin/flake8",
+  "python.testing.pytestArgs": [
+    "--no-cov"
+  ],
   "editor.formatOnSave": true,
   "python.terminal.activateEnvironment": true,
   "files.exclude": {
@@ -16,5 +19,7 @@
     "**/Thumbs.db": true,
     "**/__pycache__": true,
     "**/.pytest_cache": true
-  }
+  },
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }
