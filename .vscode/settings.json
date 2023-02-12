@@ -1,20 +1,12 @@
 {
-  "python.analysis.autoSearchPaths": true,
-  "python.analysis.autoImportCompletions": true,
-  "python.analysis.extraPaths": ["birthdayculator"],
-  "python.defaultInterpreterPath": ".venv/bin/python",
-  "python.formatting.blackPath": ".venv/bin/black",
-  "python.formatting.provider": "black",
-  "isort.path": [".venv/bin/isort"],
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Path": ".venv/bin/flake8",
-  "python.testing.pytestArgs": [
-    "--no-cov"
-  ],
   "editor.formatOnSave": true,
-  "python.terminal.activateEnvironment": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
   "files.exclude": {
     "**/.git": true,
+    "**/.coverage": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
@@ -24,6 +16,32 @@
     "**/.venv": true,
     "**/.pytest_cache": true
   },
-  "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true
+  "isort.path": [".venv/bin/isort"],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoImportUserSymbols": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.fixAll": [
+    "source.unusedImports",
+    "source.convertImportFormat"
+  ],
+  "python.analysis.extraPaths": ["birthdayculator"],
+  "python.analysis.include": ["birthdayculator"],
+  "python.analysis.indexing": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.stubPath": "birthdayculator/stubs",
+  "python.analysis.typeCheckingMode": "strict",
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "python.formatting.blackPath": ".venv/bin/black",
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": ".venv/bin/flake8",
+  "python.poetryPath": "~/.pyenv/shims/poetry",
+  "python.terminal.activateEnvironment": true,
+  "python.testing.pytestArgs": [
+    "--no-cov"
+  ],
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false
 }
