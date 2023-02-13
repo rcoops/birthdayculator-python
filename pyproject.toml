@@ -3,7 +3,7 @@ authors = ["Rick Cooper <rcoops84@hotmail.com>"]
 description = "A thin and extremely specialised wrapper around luxon for calculating birthday info from a birth date. Ported from npm library"
 license = "MIT"
 name = "birthdayculator"
-version = "0.2.0"
+version = "0.4.1"
 
 [tool.poetry.dependencies]
 arrow = "^1.2.3"
