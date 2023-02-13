@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/rcoops/birthdayculator-python/compare/v0.4.0...v0.4.1) (2023-02-13)
+
+
+### Bug Fixes
+
+* attempt to fix release please action ([#17](https://github.com/rcoops/birthdayculator-python/issues/17)) ([1236fa5](https://github.com/rcoops/birthdayculator-python/commit/1236fa50fea29c50dee3e5e2c0f3a50f9007a15f))
+
 ## [0.4.0](https://github.com/rcoops/birthdayculator-python/compare/v0.3.0...v0.4.0) (2023-02-13)
 
 
