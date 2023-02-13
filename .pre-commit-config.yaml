@@ -30,6 +30,11 @@ repos:
         args:
           - "--check"
 
+  - repo: https://github.com/RobertCraigie/pyright-python
+    rev: v1.1.293
+    hooks:
+      - id: pyright
+
   - repo: local
     hooks:
       - id: pytest-cov
