@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/rcoops/birthdayculator-python/compare/v0.3.0...v0.4.0) (2023-02-13)
+
+
+### Features
+
+* calculate delta ([#15](https://github.com/rcoops/birthdayculator-python/issues/15)) ([05a37ab](https://github.com/rcoops/birthdayculator-python/commit/05a37aba79619bcf18e72c757bf13bc4b812661d))
+
 ## [0.3.0](https://github.com/rcoops/birthdayculator-python/compare/v0.2.0...v0.3.0) (2023-02-03)
 
 
