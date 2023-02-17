@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/rcoops/birthdayculator-python/compare/v0.4.1...v0.5.0) (2023-02-17)
+
+
+### Features
+
+* **birthdayculator:** fill out functionality - calculate age, next birthday etc ([#21](https://github.com/rcoops/birthdayculator-python/issues/21)) ([832e5d1](https://github.com/rcoops/birthdayculator-python/commit/832e5d19baae97665167e1094d74f39bc5653394))
+
 ## [0.4.1](https://github.com/rcoops/birthdayculator-python/compare/v0.4.0...v0.4.1) (2023-02-13)
 
 
