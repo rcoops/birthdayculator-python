@@ -24,7 +24,7 @@
     "source.unusedImports",
     "source.convertImportFormat"
   ],
-  "python.analysis.extraPaths": ["birthdayculator"],
+  "python.analysis.extraPaths": ["birthdayculator", "tests"],
   "python.analysis.include": ["birthdayculator"],
   "python.analysis.indexing": true,
   "python.analysis.inlayHints.functionReturnTypes": true,
