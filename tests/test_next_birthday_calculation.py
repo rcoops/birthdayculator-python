@@ -1,27 +1,3 @@
-# test.each`
-#   birthDate       | dateToCompareTo | expectedNextBirthday
-#   ${'2021-05-25'} | ${'2022-05-25'} | ${'2023-05-25'}
-#   ${'2022-05-25'} | ${'2021-05-25'} | ${'2022-05-25'}
-#   ${'2024-02-28'} | ${'2024-03-28'} | ${'2025-02-28'}
-#   ${'2024-02-29'} | ${'2025-02-28'} | ${'2026-02-28'}
-#   ${'2024-02-28'} | ${'2025-02-28'} | ${'2026-02-28'}
-#   ${'2024-02-28'} | ${'2024-02-29'} | ${'2025-02-28'}
-#   ${'2024-02-28'} | ${'2024-03-01'} | ${'2025-02-28'}
-#   ${'2023-02-28'} | ${'2023-03-01'} | ${'2024-02-28'}
-#   ${'1983-08-24'} | ${'1984-08-24'} | ${'1985-08-24'}
-#   ${'1983-07-21'} | ${'1983-08-21'} | ${'1984-07-21'}
-#   ${'1983-07-21'} | ${'1983-07-28'} | ${'1984-07-21'}
-#   ${'1983-08-24'} | ${'2022-05-29'} | ${'2022-08-24'}
-# `(
-#   'birthDate=$birthDate, dateToCompareTo=$dateToCompareTo, expectedNextBirthday=$expectedNextBirthday',
-#   ({ birthDate, dateToCompareTo, expectedNextBirthday }: NextBirthdayTestData) => {
-#     const { nextBirthday } = calculateBirthdayInfo({ birthDate, dateToCompareTo });
-
-#     expect(nextBirthday).toEqual(DateTime.fromISO(expectedNextBirthday));
-#   },
-# );
-
-
 from arrow import get
 from assertpy import assert_that
 from pytest import mark

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from datetime import tzinfo
 from functools import lru_cache
 from typing import Tuple

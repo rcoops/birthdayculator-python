@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from datetime import date
 from functools import lru_cache
 
